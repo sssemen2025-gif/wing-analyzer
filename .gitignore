@@ -1,0 +1,32 @@
+# Python
+__pycache__/
+*.py[cod]
+*.so
+*.egg-info/
+dist/
+build/
+*.egg
+
+# Виртуальное окружение
+venv/
+.venv/
+env/
+
+# IDE
+.vscode/
+.idea/
+*.swp
+*.swo
+
+# Системные файлы
+.DS_Store
+Thumbs.db
+desktop.ini
+
+# Файлы проекта, которые не должны быть в репозитории
+*.exe
+*.stp
+*.step
+*.056
+output/
+logs/
