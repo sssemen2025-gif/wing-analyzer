@@ -1,20 +1,31 @@
-\# Wing Analyzer ✈️
+# Wing Analyzer ✈️
 
+**Аэродинамический анализатор крыла по двум STEP-файлам**
 
+[![Python](https://img.shields.io/badge/Python-3.9+-3776AB?logo=python&logoColor=white)](https://www.python.org/)
+[![PySide6](https://img.shields.io/badge/GUI-PySide6-41B1E6.svg)](https://www.pyside.org/)
+[![pythonocc](https://img.shields.io/badge/pythonocc-core-4B8BBE.svg)](https://github.com/tpaviot/pythonocc-core)
+[![License](https://img.shields.io/badge/License-MIT-yellow.svg)](https://opensource.org/licenses/MIT)
 
-\*\*Инструмент для инженерного анализа аэродинамических профилей крыла по двум STEP-файлам поверхностей.\*\*
+---
 
+## 📋 О проекте
 
+Приложение предназначено для аэродинамического анализа крыла летательного аппарата.  
+Исходные данные — **два STEP-файла** (верхняя и нижняя поверхности крыла).
 
-\[!\[Python](https://img.shields.io/badge/Python-3.9+-blue.svg)](https://www.python.org/)
+Программа автоматически нарезает сечения, строит профили и выполняет гибридную аппроксимацию.
 
-\[!\[PySide6](https://img.shields.io/badge/GUI-PySide6-orange.svg)](https://pypi.org/project/PySide6/)
+---
 
+## 🚀 Основные возможности
 
-
-\---
-
-
+- Загрузка двух STEP-файлов (верх/низ)
+- Автоматическая и ручная нарезка сечений по Z
+- Гибридная аппроксимация **CST + PCHIP**
+- 2D и 3D визуализация
+- Экспорт в авиационный формат **.056**
+- Удобный GUI на PySide6 (тёмная тема)
 
 \## 📋 О проекте
 
